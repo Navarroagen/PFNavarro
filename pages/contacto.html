@@ -38,29 +38,43 @@
     </header> 
 <section>
 
-    <div class="form"> 
-<h1>Contacto</h1>
-<form class="formulario">
-    <label for="nombre">Nombre y apellido</label>
-    <input type="text" id="nombre">
-    <br>
-    <label for="dni">Numero de DNI</label>
-    <input type=number" id="dni">
-<br>
-    <label for="telefono">Numero de telefono</label>
-    <input type="tel" id="telefono">
-    <br>
-
-    <label for="correo">Correo electrónico</label>
-    <input type="email" id="correo">
-<br>
-    <label for="mensaje">Dejanos tu mensaje</label>
-    <br>
-    <textarea id="mensaje" cols="50" rows="20"></textarea>
-<br>
-    <input type="submit" value="Enviar formulario">
-    <input type="reset" value="Limpia el formulario">
+<form>
+    <div class="container">
+    <div class="form-group">
+        <h1>Datos de contacto</h1>
+      <label for="exampleFormControlInput1">Nombre</label>
+      <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Nombre">
+    </div>
+    <div class="form-group">
+        <label for="exampleFormControlInput1">Apellido</label>
+        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Apellido">
+      </div>
+      <div class="form-group">
+        <label for="exampleFormControlInput1">Email</label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="email@ejemplo.com">
+      </div>
+      <div class="form-group">
+        <label for="exampleFormControlInput1">Telefono</label>
+        <input type="number" class="form-control" id="exampleFormControlInput1" placeholder="Numero">
+      </div>
+    <div class="form-group">
+      <label for="exampleFormControlSelect1">Tipo de documento</label>
+      <select class="form-control" id="exampleFormControlSelect1">
+        <option>DNI</option>
+        <option>Pasaporte</option>
+        <option>Libreta Civica</option>
+      </select>
+      <input type="number" class="form-control" id="exampleFormControlInput1" placeholder="Numero">
+    </div>
+    <div class="form-group">
+      <label for="exampleFormControlTextarea1">Dejanos tu mensaje</label>
+      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+      <input type="submit" value="Enviar formulario">
+      <input type="reset" value="Limpia el formulario">
+    </div>
 </div>
+  </form>
+
 </section>
 <footer class="pie">
     <p>Author: Enzo Navarro<br>
