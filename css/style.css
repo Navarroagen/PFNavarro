@@ -1,7 +1,22 @@
-*{
+* {
     margin: 0;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
     padding: 0;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -moz-tap-highlight-color: rgba(0, 0, 0, 0);
+    outline: none;
+    outline-color: initial;
+    outline-style: none;
+    outline-width: initial;
 }
+
 body{
     background-color: rgba(255, 255, 255, 0.993);
     font-family: 'Montserrat', sans-serif;
@@ -10,6 +25,405 @@ body{
 header{
     top: 0; 
 }
+/*MEDIA DESKTOP */
+@media (min-width: 1200px) {
+
+    .card {
+        position: relative;
+        margin: 30px 0px 0px 0px;
+        min-height: 224px;
+        background: #FFF;
+        box-shadow: 0px 1px 6px #CCC;
+        text-align: center;
+        float: left;
+    }
+
+    .cardfoto img{
+        width: 276px;
+        height: 190px;
+    }
+
+    .titulo-marca-honda{
+        font-size: 18px;
+        line-height: 24px;
+        font-weight: 700;
+    }
+
+    .titulo-marcas{
+        text-align: center;
+        margin: 2px 0px -7px 25px;
+        font-size: 18px;
+        line-height: 24px;
+        font-weight: 700;
+    }
+    .titulo-motos h1{
+        font-size: 25px;
+        line-height: 24px;
+        font-weight: 700;
+        padding-left: calc(var(--bs-gutter-x) * .5);
+    }
+
+.sub1 h2{
+    color: red;
+    font-size: 15px;
+    line-height: 24px;
+    font-weight: 700;
+    padding-left: calc(var(--bs-gutter-x) * .5);
+
+}
+    .container {
+        width: 1200px;
+        padding-left: 20px;
+    }
+    .container p {
+       font-size: 20px;
+    }
+.textos-equipamiento{
+    margin-top: 10px;
+    margin-bottom: 10;
+width: 1000px;
+}
+.cascos img{
+    margin-top: 15px;
+    border-left: 1px solid #E5E5E5;;
+    border-top:1px solid #E5E5E5; ;
+    border-right: 1px solid #E5E5E5;
+        border-bottom: 1px solid #E5E5E5;
+        box-sizing: border-box;
+        text-align:center;
+        width: 1000px;
+};
+
+.pantalones img{
+    width: 1000px;
+}
+.img-pantalones img{
+    width: 1000px;
+}
+.botas img{
+    width: 1000px;
+}
+
+.brandBox {
+        width:147px;
+        height:130px;
+        border-right: 1px solid #E5E5E5;
+        border-bottom: 1px solid #E5E5E5;
+        box-sizing: border-box;
+        text-align:center;
+        float:left;
+    }
+.brandBoxContainer {
+    float: left;
+    margin: 25px 0px 0px 25px;
+    width: 1176px;
+    height: 650px;
+    box-shadow: 0px 1px 6px #CCC;
+}
+
+#carouselExample{
+    width: 878px;
+    height: 487px;
+    box-shadow: 0px 1px 6px #CCC;
+    margin-bottom: 15px;
+    }
+    
+    .list-group{
+margin-bottom: 10px;
+        text-align: left;
+        width: 890px;
+        padding-left: calc(var(--bs-gutter-x) * .5);
+    }
+    .list-group-item img{
+        height: 17px;
+        width: 17px;
+    }
+    .list-group-item-gray{
+        background-color:rgb(233, 233, 233);
+        text-align: left;
+        padding-left: calc(var(--bs-gutter-x) * .5);
+        position: relative;
+        display: block;
+        padding: var(--bs-list-group-item-padding-y) var(--bs-list-group-item-padding-x);
+        color: var(--bs-list-group-color);
+        text-decoration: none;
+        border: var(--bs-list-group-border-width) solid var(--bs-list-group-border-color);
+}
+
+.caja-video iframe {
+margin-right: 10px;
+margin-top: 15px;
+width: 600px; 
+height:300px ;
+float: left;
+}
+}
+
+/*MEDIA INTERMEDIA*/
+
+@media only screen and (min-width: 1024px) and (max-width: 1223px){
+    .titulo-marca-honda{
+        font-size: 18px;
+        line-height: 24px;
+        font-weight: 700;
+    }
+
+    .titulo-marcas{
+        text-align: center;
+        font-size: 18px;
+        line-height: 24px;
+        font-weight: 700;
+    }
+    .card {
+        position: relative;
+        margin: 30px 0px 0px 0px;
+        min-height: 224px;
+        background: #FFF;
+        box-shadow: 0px 1px 6px #CCC;
+        text-align: center;
+        float: left;
+    }
+
+    .card {
+        width: 278px;
+        margin: 38px 22px 0px 0px;
+    }
+    .cardfoto img{
+        width: 276px;
+        height: 190px;
+    }
+
+.container {
+    width: 990px;
+    padding-left: 20px;
+}
+.brandBoxContainer {
+    width: 970px;
+    height: 1040px;
+    margin: 25px 0px 0px 1px;
+    box-shadow: 0px 1px 6px #CCC;
+    float: left;
+}
+.brandBox {
+    width: 194px;
+    height:130px;
+        border-right: 1px solid #E5E5E5;
+        border-bottom: 1px solid #E5E5E5;
+        box-sizing: border-box;
+        text-align:center;
+        float:left; 
+}
+.sub1 h2{
+    color: red;
+    font-size: 15px;
+    line-height: 24px;
+    font-weight: 700;
+    padding-left: calc(var(--bs-gutter-x) * .5);
+}
+.list-group-item-gray{
+    background-color:rgb(233, 233, 233);
+    text-align: left;
+    padding-left: calc(var(--bs-gutter-x) * .5);
+    position: relative;
+    display: block;
+    padding: var(--bs-list-group-item-padding-y) var(--bs-list-group-item-padding-x);
+    color: var(--bs-list-group-color);
+    text-decoration: none;
+    border: var(--bs-list-group-border-width) solid var(--bs-list-group-border-color);
+}
+.list-group-item img{
+    height: 17px;
+    width: 17px;
+}
+
+}
+
+/*MEDIA PARA IPADS*/
+@media only screen and (min-width: 768px) and (max-width: 1023px){
+
+    .titulo-marca-honda{
+        font-size: 18px;
+        line-height: 24px;
+        font-weight: 700;
+    }
+    .titulo-marcas{
+        text-align: center;
+        font-size: 18px;
+        line-height: 24px;
+        font-weight: 700;
+    }
+    .card {
+        position: relative;
+        margin: 30px 0px 0px 0px;
+        min-height: 224px;
+        background: #FFF;
+        box-shadow: 0px 1px 6px #CCC;
+        text-align: center;
+        float: left;
+    }
+
+    .card {
+        float: left;
+        width: 278px;
+        margin: 38px 22px 0px 0px;
+    }
+    .cardfoto img{
+        width: 276px;
+        height: 190px;
+    }
+
+.container {
+        width: 748px;
+        padding-left: 20px;
+    }
+.brandBox {
+    width: 145px;
+    height:130px;
+    border-right: 1px solid #E5E5E5;
+    border-bottom: 1px solid #E5E5E5;
+    box-sizing: border-box;
+    text-align:center;
+    float:left;
+}
+.brandBoxContainer {
+    width: 725px;
+    margin: 25px 0px 0px 1px;
+    height: 1040px;
+    box-shadow: 0px 1px 6px #CCC;
+    float: left;
+}
+.sub1 h2{
+    color: red;
+    font-size: 15px;
+    line-height: 24px;
+    font-weight: 700;
+    padding-left: calc(var(--bs-gutter-x) * .5);
+}
+
+.list-group-item-gray{
+    background-color:rgb(233, 233, 233);
+    text-align: left;
+    padding-left: calc(var(--bs-gutter-x) * .5);
+    position: relative;
+    display: block;
+    padding: var(--bs-list-group-item-padding-y) var(--bs-list-group-item-padding-x);
+    color: var(--bs-list-group-color);
+    text-decoration: none;
+    border: var(--bs-list-group-border-width) solid var(--bs-list-group-border-color);
+}
+.list-group-item img{
+    height: 17px;
+    width: 17px;
+}
+
+}
+
+.cardnombre a {
+text-decoration: none;
+color: #FFF;
+}
+
+.cardnombre { 
+    padding: 7px 0px 7px 0px;
+    font-size: 15px;
+    color: #FFF;
+    text-align: center;
+    background: #063469;
+}
+
+
+
+/*MEDIA PARA CELULARES*/
+@media only screen and /*(min-width: 560px) and*/ (max-width: 767px){
+
+.caja-video iframe {
+margin-top: 15px;
+width: 508px; ;
+height:300px ;
+}
+
+.card {
+    position: relative;
+    margin: 30px 0px 0px 0px;
+    min-height: 224px;
+    background: #FFF;
+    box-shadow: 0px 1px 6px #CCC;
+    text-align: center;
+    float: left;
+}
+
+
+.card{
+    width: 250px;
+    min-height: 204px;
+}
+.cardfoto img{
+    width: 248px;
+    height: 170px;
+}
+
+.titulo-marca-honda{
+        font-size: 18px;
+        line-height: 24px;
+        font-weight: 700;
+    }
+.titulo-marcas{
+        margin-top: 15px;
+        font-size: 18px;
+        line-height: 24px;
+        font-weight: 700px;
+    }
+.container {
+    width: 540px;
+    padding-left: 20px;
+}
+    .brandBoxContainer {
+        height: 800px;
+        width: 519px;
+        box-shadow: 0px 1px 6px #CCC;
+        float: left;
+    }
+
+    .brandBox {
+        width: 173px;
+        height:130px;
+        border-right: 1px solid #E5E5E5;
+        border-bottom: 1px solid #E5E5E5;
+        box-sizing: border-box;
+        text-align:center;
+        float:left;
+    }
+
+    .sub1 h2{
+        color: red;
+        font-size: 15px;
+        line-height: 24px;
+        font-weight: 700;
+        padding-left: calc(var(--bs-gutter-x) * .5);
+    }
+    
+    .list-group-item-gray{
+        background-color:rgb(233, 233, 233);
+        text-align: left;
+        padding-left: calc(var(--bs-gutter-x) * .5);
+        position: relative;
+        display: block;
+        padding: var(--bs-list-group-item-padding-y) var(--bs-list-group-item-padding-x);
+        color: var(--bs-list-group-color);
+        text-decoration: none;
+        border: var(--bs-list-group-border-width) solid var(--bs-list-group-border-color);
+}
+.list-group-item img{
+    height: 17px;
+    width: 17px;
+}
+
+}
+
+
+
+
+
 .logo{
     background-color: rgb(41, 36, 36);
     height: 100px;
@@ -48,13 +462,13 @@ header{
 height: 400px;
 border-bottom: solid;
 }
-.caja-video iframe{
+/*.caja-video iframe{
     margin-left: 20px;
     margin-top: 10px;
     float:left;
     height: 350px;
     border-bottom: solid;
-}
+}*/
 
 .caja-texto{
 margin-left: 750px;
@@ -101,66 +515,8 @@ overflow: hidden;
     right: 30px;
 }
 
-#carouselExample{
-margin-left: 100px;
-width: 700px;
-height: 600px;
-}
-#carouselExample2{
-    margin-left: 100px;
-    width: 800px;
-    height: 600px;
-    }
-#carouselExample3{
-        margin-left: 100px;
-        width: 800px;
-        height: 600px;
-        }
-#carouselExample4{
-    margin-top: 90px;
-            margin-left: 100px;
-            height: 600px;
-            width: 800px;
-            }
 
-.caja-bmw{
-    display: inline;
-    height: 700px;
-    float: left;
-}
-.bmw-texto{
-    margin-left: 750px;
-    height: 500px;
-    overflow: hidden;
-}
-.bmw-texto h2{
-    font-size: xx-large;
-    margin-top: 200px;
-    margin-bottom: 30px;
-}
-.bmw-texto p{
-    display: inline;
-    font-size: x-large;
-}
-.caja-ducati{
-    display: inline;
-    height: 700px;
-    float: left;
-}
-.ducati-texto{
-    margin-left: 750px;
-    height: 900px;
-    overflow: hidden;
-}
-.ducati-texto h2{
-    font-size: xx-large;
-    margin-top: 300px;
-    margin-bottom: 30px;
-}
-.ducati-texto p{
-    display: inline;
-    font-size: x-large;
-}
+
 .bota img{
 height: 500px;
 width: 500px;
@@ -182,12 +538,9 @@ margin-bottom: 20px;
     font-size: 45px;
 }
 
-.container {
-    margin-top: 30px;
-}
-
 .pie{
     margin-top: 100%;
     margin-left: 10px;
     bottom: 0;
 }
+
