@@ -426,7 +426,7 @@ header {
   }
   .container {
     width: 720px;
-    height: 600px;
+    height: 1200px;
   }
   .brandBoxContainer {
     margin: 25px 0px 0px 1px;
@@ -547,7 +547,7 @@ header {
     font-weight: 700;
   }
   .container {
-    height: 2200px;
+    height: 1200px;
     width: 400px;
     padding-left: 20px;
   }
@@ -723,6 +723,7 @@ header {
 }
 
 .logoig {
+  margin-bottom: 10px;
   width: 30px;
   height: 30px;
   position: fixed;
@@ -757,7 +758,7 @@ header {
 }
 
 .pie {
-  margin-top: 1000px;
+  margin-top: 1300px;
   margin-left: 10px;
   bottom: 0;
 }
