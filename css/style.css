@@ -9,12 +9,6 @@
   padding-right: 0px;
   padding-bottom: 0px;
   padding-left: 0px;
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-  -moz-tap-highlight-color: rgba(0, 0, 0, 0);
-  outline: none;
-  outline-color: initial;
-  outline-style: none;
-  outline-width: initial;
 }
 
 body {
@@ -49,7 +43,7 @@ header {
     width: 276px;
     height: 190px;
   }
-  .titulo-marca-honda {
+  .titulo-marca-honda, .titulo-marcas {
     font-size: 18px;
     line-height: 24px;
     font-weight: 700;
@@ -63,13 +57,6 @@ header {
   }
   .titulo-motos h1 {
     font-size: 25px;
-    line-height: 24px;
-    font-weight: 700;
-    padding-left: calc(var(--bs-gutter-x) * 0.5);
-  }
-  .sub1 h2 {
-    color: red;
-    font-size: 15px;
     line-height: 24px;
     font-weight: 700;
     padding-left: calc(var(--bs-gutter-x) * 0.5);
@@ -88,11 +75,6 @@ header {
   }
   .cascos img {
     margin-top: 15px;
-    border-left: 1px solid #E5E5E5;
-    border-top: 1px solid #E5E5E5;
-    border-right: 1px solid #E5E5E5;
-    border-bottom: 1px solid #E5E5E5;
-    box-sizing: border-box;
     text-align: center;
     width: 1000px;
   }
@@ -103,6 +85,9 @@ header {
     width: 1000px;
   }
   .botas img {
+    width: 1000px;
+  }
+  .subt-equipacion {
     width: 1000px;
   }
   .brandBox {
@@ -148,20 +133,13 @@ header {
     text-decoration: none;
     border: var(--bs-list-group-border-width) solid var(--bs-list-group-border-color);
   }
-  .caja-video iframe {
-    margin-right: 10px;
-    margin-top: 15px;
-    width: 600px;
-    height: 300px;
-    float: left;
-  }
 }
 /*MEDIA INTERMEDIA*/
-@media only screen and (min-width: 1024px) and (max-width: 1223px) {
+@media only screen and (min-width: 1042px) and (max-width: 1320px) {
   .navbar-toggler {
     background-color: #5c5b5b;
   }
-  .titulo-marca-honda {
+  .titulo-marca-honda, .titulo-marcas {
     font-size: 18px;
     line-height: 24px;
     font-weight: 700;
@@ -195,7 +173,7 @@ header {
   }
   .brandBoxContainer {
     width: 970px;
-    height: 1040px;
+    height: 550px;
     margin: 25px 0px 0px 1px;
     box-shadow: 0px 1px 6px #CCC;
     float: left;
@@ -208,13 +186,6 @@ header {
     box-sizing: border-box;
     text-align: center;
     float: left;
-  }
-  .sub1 h2 {
-    color: red;
-    font-size: 15px;
-    line-height: 24px;
-    font-weight: 700;
-    padding-left: calc(var(--bs-gutter-x) * 0.5);
   }
   .list-group-item-gray {
     background-color: rgb(233, 233, 233);
@@ -258,16 +229,18 @@ header {
   .titulo-equipacion {
     width: 800px;
     margin-top: 15px;
-    text-align: center;
     margin-bottom: 30px;
+  }
+  .subt-equipacion {
+    width: 800px;
   }
 }
 /*MEDIA PARA IPADS*/
-@media only screen and (min-width: 768px) and (max-width: 1023px) {
+@media only screen and (min-width: 796px) and (max-width: 1042px) {
   .navbar-toggler {
     background-color: #5c5b5b;
   }
-  .titulo-marca-honda {
+  .titulo-marca-honda, .titulo-marcas {
     font-size: 18px;
     line-height: 24px;
     font-weight: 700;
@@ -312,16 +285,9 @@ header {
   .brandBoxContainer {
     width: 725px;
     margin: 25px 0px 0px 1px;
-    height: 600px;
+    height: 550px;
     box-shadow: 0px 1px 6px #CCC;
     float: left;
-  }
-  .sub1 h2 {
-    color: red;
-    font-size: 15px;
-    line-height: 24px;
-    font-weight: 700;
-    padding-left: calc(var(--bs-gutter-x) * 0.5);
   }
   .list-group-item-gray {
     background-color: rgb(233, 233, 233);
@@ -358,7 +324,7 @@ header {
   .textos-equipamiento {
     font-size: 20px;
     margin-top: 10px;
-    margin-bottom: 10;
+    margin-bottom: 10px;
     width: 600px;
   }
   .titulo-equipacion {
@@ -386,32 +352,24 @@ header {
 
 /*MEDIA PARA CELULARES*/
 @media only screen and (min-width: 641px) and (max-width: 796px) {
-  .caja-video iframe {
-    margin-top: 15px;
-    width: 508px;
-    height: 300px;
-  }
   .navbar-toggler {
     background-color: #5c5b5b;
   }
   .card {
     position: relative;
     margin: 30px 0px 0px 0px;
-    min-height: 224px;
     background: #FFF;
     box-shadow: 0px 1px 6px #CCC;
     text-align: center;
     float: left;
-  }
-  .card {
-    width: 250px;
+    width: 254px;
     min-height: 204px;
   }
   .cardfoto img {
-    width: 248px;
+    width: 252px;
     height: 170px;
   }
-  .titulo-marca-honda {
+  .titulo-marca-honda, .titulo-marcas {
     font-size: 18px;
     line-height: 24px;
     font-weight: 700;
@@ -425,8 +383,7 @@ header {
     font-weight: 700;
   }
   .container {
-    width: 720px;
-    height: 1200px;
+    max-width: 540px;
   }
   .brandBoxContainer {
     margin: 25px 0px 0px 1px;
@@ -443,13 +400,6 @@ header {
     box-sizing: border-box;
     text-align: center;
     float: left;
-  }
-  .sub1 h2 {
-    color: red;
-    font-size: 15px;
-    line-height: 24px;
-    font-weight: 700;
-    padding-left: calc(var(--bs-gutter-x) * 0.5);
   }
   .list-group-item-gray {
     background-color: rgb(233, 233, 233);
@@ -526,15 +476,15 @@ header {
     float: left;
   }
   .card {
-    margin-left: 50px;
-    width: 250px;
+    margin-left: 40px;
+    width: 270px;
     min-height: 204px;
   }
   .cardfoto img {
-    width: 248px;
+    width: 268px;
     height: 170px;
   }
-  .titulo-marca-honda {
+  .titulo-marca-honda, .titulo-marcas {
     font-size: 18px;
     line-height: 24px;
     font-weight: 700;
@@ -547,7 +497,6 @@ header {
     font-weight: 700;
   }
   .container {
-    height: 1200px;
     width: 400px;
     padding-left: 20px;
   }
@@ -567,13 +516,6 @@ header {
     text-align: center;
     float: left;
   }
-  .sub1 h2 {
-    color: red;
-    font-size: 15px;
-    line-height: 24px;
-    font-weight: 700;
-    padding-left: calc(var(--bs-gutter-x) * 0.5);
-  }
   .list-group-item-gray {
     background-color: rgb(233, 233, 233);
     text-align: left;
@@ -590,32 +532,32 @@ header {
     width: 17px;
   }
   .cascos img {
-    margin-left: 25px;
+    margin-left: 15px;
     text-align: center;
     width: 380px;
   }
   .camperas img {
-    margin-left: 25px;
+    margin-left: 15px;
     width: 380px;
   }
   .pantalones img {
-    margin-left: 25px;
+    margin-left: 15px;
     width: 380px;
   }
   .img-pantalones img {
-    margin-left: 25px;
+    margin-left: 15px;
     width: 380px;
   }
   .botas img {
-    margin-left: 25px;
+    margin-left: 15px;
     width: 380px;
   }
   .textos-equipamiento {
-    margin-left: 25px;
+    margin-left: 15px;
     font-size: 20px;
     margin-top: 10px;
-    margin-bottom: 10;
-    width: 380px;
+    margin-bottom: 10px;
+    width: 360px;
     text-align: center;
   }
   .titulo-equipacion {
@@ -625,7 +567,7 @@ header {
     margin-bottom: 30px;
   }
   .subt-equipacion {
-    margin-left: 45px;
+    margin-left: 25px;
     width: 350px;
     text-align: center;
   }
@@ -659,7 +601,7 @@ header {
 
 .navbar li {
   margin: top 100px;
-  margin-left: 90px;
+  margin-left: 20px;
   padding: 20px;
 }
 
@@ -674,13 +616,6 @@ header {
   border-bottom: solid;
 }
 
-/*.caja-video iframe{
-    margin-left: 20px;
-    margin-top: 10px;
-    float:left;
-    height: 350px;
-    border-bottom: solid;
-}*/
 .caja-texto {
   margin-left: 750px;
   height: 400px;
@@ -740,11 +675,6 @@ header {
   padding: 10px;
 }
 
-.saludo-texto {
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
-
 .saludo img {
   width: 820px;
 }
@@ -758,9 +688,25 @@ header {
 }
 
 .pie {
-  margin-top: 1300px;
-  margin-left: 10px;
-  bottom: 0;
+  float: left;
+}
+
+.sub1 h2 {
+  color: red;
+  font-size: 15px;
+  line-height: 24px;
+  font-weight: 700;
+  padding-left: calc(var(--bs-gutter-x) * 0.5);
+}
+
+.titulo-marca-honda, .titulo-marcas {
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 700;
+}
+
+.titulo-marcas {
+  text-align: center;
 }
 
 /*# sourceMappingURL=style.css.map */
